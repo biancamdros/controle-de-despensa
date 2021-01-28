@@ -1,5 +1,4 @@
-# controle-de-despensa
-projeto de programação
+Controle de despensa
 _____________________________________________________________________________
 |             Universidade Federal do Rio Grande do Norte                   |
 |                 Centro de Ensino Superior do Seridó                       |
