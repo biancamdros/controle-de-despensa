@@ -1,13 +1,4 @@
-Controle de despensa
-_____________________________________________________________________________
-|             Universidade Federal do Rio Grande do Norte                   |
-|                 Centro de Ensino Superior do Seridó                       |
-|               Departamento de Computação e Tecnologia                     |
-|                  Disciplina DCT1106 -- Programação                        |
-|                  Projeto Controle de Despensa Doméstica                   |
-|                Developed by  @biancamdros - Jan, 2021                     |
-|___________________________________________________________________________|
-
+Despensa eletrônica
 _______________________________________________________________________________
 |                                                                             |
 |             Universidade Federal do Rio Grande do Norte                     |
