@@ -1,4 +1,4 @@
-#Despensa_eletrônica
+# Despensa_eletrônica
 
 Universidade Federal do Rio Grande do Norte  
 
@@ -14,7 +14,7 @@ Projeto Controle de Despensa Doméstica
 Developed by  @biancamdros - Jan, 2021 
                        
 
-#Controle de Despensa Doméstica
+# Controle de Despensa Doméstica
 
 
 Projeto criado para desenvolvimento durante o semestre 2020.2 na 
