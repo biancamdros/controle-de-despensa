@@ -1,0 +1,47 @@
+    char menuFeira(void){
+	char cadastrar [50];
+	char renomear [50];
+	char preco [10];
+	char escolha [1];
+    
+    system("clear");
+	printf("\n");
+	printf("*****************************************************************************\n");
+	printf("**                                                                         **\n");
+	printf("**           ***************************************************           **\n");
+	printf("**           ---------------------------------------------------           **\n");
+	printf("**          |                Despensa eletronica               |           **\n");
+	printf("**           ---------------------------------------------------           **\n");
+	printf("**           ***************************************************           **\n");
+	printf("**                 Developed by  @biancamdros - Feb, 2021                  **\n");
+	printf("**                                                                         **\n");
+	printf("*****************************************************************************\n");
+	printf("**                                                                         **\n");
+	printf("**            -----------------------------------------------              **\n");
+	printf("**            |             Módulo Cadastro de Feira        |              **\n");
+	printf("**            -----------------------------------------------              **\n");
+	printf("**                                                                         **\n");
+	printf("**            1. Cadastrar item                                            **\n");
+	printf("**            2. Renomear item                                             **\n");
+	printf("**            3. Adicionar preço do item                                   **\n");
+	printf("**            4. Excluir um item do sistema                                **\n");
+	printf("**            0. Voltar ao menu anterior                                   **\n");
+	printf("**                                                                         **\n");
+	printf("**            Escolha a opção desejada:                                    **\n");
+	printf("**            Cadastrando o item: ");
+	scanf("%[A-ZÁÉÍÓÚÂÊÔÇÀÃÕ a-záéíóúâêôçàãõ]", cadastrar);
+	getchar ();
+	printf("**            Renomeando o item:");
+	scanf("%[A-ZÁÉÍÓÚÂÊÔÇÀÃÕ a-záéíóúâêôçàãõ]", renomear);
+	getchar();
+	printf("**            Preco do item:");
+	scanf("%[0-9]", preco);
+	getchar();
+	printf("**                                                                         **\n");
+	printf("**                                                                         **\n");
+	printf("*****************************************************************************\n");
+	printf("\n");
+    printf("\t\t\t>>> Tecle <ENTER> para continuar...\n");
+	getchar();
+	return op;
+}

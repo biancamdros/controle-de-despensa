@@ -4,7 +4,8 @@
 ///               Departamento de Computação e Tecnologia                   ///
 ///                  Disciplina DCT1106 -- Programação                      ///
 ///                  Projeto Controle de Despensa Eletrônica                ///
-///                Developed by  @biancamdros - Feb, 2021                    ///
+///                Developed by  @biancamdros - Feb, 2021                   ///
+///          Inspirado no repositorio linguasolta de flgorgonio             ///
 ///////////////////////////////////////////////////////////////////////////////
 
 #include <stdio.h>
@@ -14,27 +15,29 @@
 /// 
 /// Assinaturas das funções
 ///
-void menuPrincipal(void);
+char menuPrincipal(void);
 void telaSobre(void);
-void menuFeira(void);
-void menuConsumo(void);
-void menuVencimento(void);
+char menuFeira(void);
+char menuConsumo(void);
+char menuVencimento(void);
 
 
 ///
 /// Programa Principal
 ///
 int main(void) {
+	char opcao;
     telaSobre();
-    menuPrincipal();
-    menuFeira();
-    menuConsumo();
-    menuVencimento();
+    opcao = menuPrincipal();
+    opcao = menuFeira();
+    opcao = menuConsumo();
+    opcao = menuVencimento();
     return 0;
 }
 
 
 void menuPrincipal(void) {
+	char op;
     system("clear");
 	printf("\n");
 	printf("*****************************************************************************\n");
@@ -54,8 +57,8 @@ void menuPrincipal(void) {
 	printf("**                                                                         **\n");
 	printf("**            1. Modulo cadastro de feira                                  **\n");
 	printf("**            2. Modulo consumo                                            **\n");
-	printf("**            3. Modulo vencimento                                         **\n");
-	printf("**            4. Modulo lista                                              **\n");
+	printf("**            3. Modulo lista                                              **\n");
+	printf("**            4. Modulo relatorio                                          **\n");
 	printf("**            5. Informacoes sobre o sistema                               **\n");
 	printf("**            0. Encerra o programa                                        **\n");
 	printf("**                                                                         **\n");
@@ -66,6 +69,7 @@ void menuPrincipal(void) {
 	printf("\n");
     printf("\t\t\t>>> Tecle <ENTER> para continuar...\n");
 	getchar();
+	return op;
 }
 
 
@@ -104,6 +108,7 @@ void telaSobre(void) {
 
 
 void menuFeira(void) {
+	char op;
     system("clear");
 	printf("\n");
 	printf("*****************************************************************************\n");
@@ -134,10 +139,12 @@ void menuFeira(void) {
 	printf("\n");
     printf("\t\t\t>>> Tecle <ENTER> para continuar...\n");
 	getchar();
+	return op;
 }
 
 
 void menuConsumo(void) {
+	char op;
     system("clear");
 	printf("\n");
 	printf("*****************************************************************************\n");
@@ -167,10 +174,12 @@ void menuConsumo(void) {
 	printf("\n");
     printf("\t\t\t>>> Tecle <ENTER> para continuar...\n");
 	getchar();
+	return op;
 }
 
 
 void menuVencimento(void) {
+	char op;
     system("clear");
 	printf("\n");
 	printf("*****************************************************************************\n");
@@ -201,6 +210,52 @@ void menuVencimento(void) {
 	printf("\n");
     printf("\t\t\t>>> Tecle <ENTER> para continuar...\n");
 	getchar();
+	return op;
 }
+char menuFeira(void){
+	char cadastrar [50];
+	char renomear [50];
+	char preco [10];
+	char escolha [1];
 
-
+    system("clear");
+	printf("\n");
+	printf("*****************************************************************************\n");
+	printf("**                                                                         **\n");
+	printf("**           ***************************************************           **\n");
+	printf("**           ---------------------------------------------------           **\n");
+	printf("**          |                Despensa eletronica               |           **\n");
+	printf("**           ---------------------------------------------------           **\n");
+	printf("**           ***************************************************           **\n");
+	printf("**                 Developed by  @biancamdros - Feb, 2021                  **\n");
+	printf("**                                                                         **\n");
+	printf("*****************************************************************************\n");
+	printf("**                                                                         **\n");
+	printf("**            -----------------------------------------------              **\n");
+	printf("**            |             Módulo Cadastro de Feira        |              **\n");
+	printf("**            -----------------------------------------------              **\n");
+	printf("**                                                                         **\n");
+	printf("**            1. Cadastrar item                                            **\n");
+	printf("**            2. Renomear item                                             **\n");
+	printf("**            3. Adicionar preço do item                                   **\n");
+	printf("**            4. Excluir um item do sistema                                **\n");
+	printf("**            0. Voltar ao menu anterior                                   **\n");
+	printf("**                                                                         **\n");
+	printf("**            Escolha a opção desejada:                                    **\n");
+	printf("**            Cadastrando o item: ");
+	scanf("%[A-ZÁÉÍÓÚÂÊÔÇÀÃÕ a-záéíóúâêôçàãõ]", cadastrar);
+	getchar ();
+	printf("**            Renomeando o item:");
+	scanf("%[A-ZÁÉÍÓÚÂÊÔÇÀÃÕ a-záéíóúâêôçàãõ]", renomear);
+	getchar();
+	printf("**            Preco do item:");
+	scanf("%[0-9]", preco);
+	getchar();
+	printf("**                                                                         **\n");
+	printf("**                                                                         **\n");
+	printf("*****************************************************************************\n");
+	printf("\n");
+    printf("\t\t\t>>> Tecle <ENTER> para continuar...\n");
+	getchar();
+	return op;
+}
