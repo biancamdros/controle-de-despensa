@@ -112,21 +112,18 @@ void limpaTela(void){
 
 void TeladeAviso(void){
 	limpaTela();
-	printf("/////////////////////////////////////////////////////////////////////////////\n");
-	printf("///                                                                       ///\n");
-	printf("///          ===================================================          ///\n");
-	printf("///          = = = = = = = = = = = = = = = = = = = = = = = = = =          ///\n");
-	printf("///          = = = =               AVISO!                = = = =          ///\n");
-	printf("///          = = = = = = = = = = = = = = = = = = = = = = = = = =          ///\n");
-	printf("///          ===================================================          ///\n");
-	printf("///                Developed by  @R.Rabi - Jan, 2021                      ///\n");
-	printf("///                                                                       ///\n");
-	printf("/// Esse ingrediente não está cadastardo no sistema. Para poder usar este ///\n");
-	printf("/// Modulo, primeiro acesse o Modulo estoque e cadastre os ingredientes   ///\n");
-	printf("/// necessários para a receita.                                           ///\n");
-	printf("///                                                                       ///\n");
-	printf("/////////////////////////////////////////////////////////////////////////////\n");
-  printf("\t\t>>> Tecle <ENTER> para continuar...\n");
+	printf("*****************************************************************************\n");
+	printf("**                                                                         **\n");
+	printf("**           ***************************************************           **\n");
+	printf("**           ---------------------------------------------------           **\n");
+	printf("**          |                Despensa eletronica               |           **\n");
+	printf("**           ---------------------------------------------------           **\n");
+	printf("**           ***************************************************           **\n");
+	printf("**                                                                         **\n");
+	printf("**                 Developed by  @biancamdros - Feb, 2021                  **\n");
+	printf("**                                                                         **\n");
+	printf("*****************************************************************************\n");
+	printf("\t\t>>> Tecle <ENTER> para continuar...\n");
   getchar();
 	
 }
