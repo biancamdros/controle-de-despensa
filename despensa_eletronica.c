@@ -106,43 +106,6 @@ void telaSobre(void) {
 	getchar();
 }
 
-
-void menuFeira(void) {
-	char op;
-    system("clear");
-	printf("\n");
-	printf("*****************************************************************************\n");
-	printf("**                                                                         **\n");
-	printf("**           ***************************************************           **\n");
-	printf("**           ---------------------------------------------------           **\n");
-	printf("**          |                Despensa eletronica               |           **\n");
-	printf("**           ---------------------------------------------------           **\n");
-	printf("**           ***************************************************           **\n");
-	printf("**                 Developed by  @biancamdros - Feb, 2021                  **\n");
-	printf("**                                                                         **\n");
-	printf("*****************************************************************************\n");
-	printf("**                                                                         **\n");
-	printf("**            -----------------------------------------------              **\n");
-	printf("**            |             Menu Cadastro de Feira          |              **\n");
-	printf("**            -----------------------------------------------              **\n");
-	printf("**                                                                         **\n");
-	printf("**            1. Cadastrar item                                            **\n");
-	printf("**            2. Renomear item                                             **\n");
-	printf("**            3. Adicionar preço do item                                   **\n");
-	printf("**            4. Excluir um item do sistema                                **\n");
-	printf("**            0. Voltar ao menu anterior                                   **\n");
-	printf("**                                                                         **\n");
-	printf("**            Escolha a opção desejada:                                    **\n");
-	printf("**                                                                         **\n");
-	printf("**                                                                         **\n");
-	printf("*****************************************************************************\n");
-	printf("\n");
-    printf("\t\t\t>>> Tecle <ENTER> para continuar...\n");
-	getchar();
-	return op;
-}
-
-
 void menuConsumo(void) {
 	char op;
     system("clear");
