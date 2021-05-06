@@ -193,11 +193,3 @@ Feira* PesquisaProd(char* nom){
 	fclose(fp);
 	return NULL;
 }
-//
-///
-//
-
-
-//
-///
-
