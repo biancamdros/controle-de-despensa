@@ -74,7 +74,7 @@ char menuConsumo(void){
 	printf("/////////////////////////////////////////////////////////////////////////////\n");
 	printf("///                                                                       ///\n");
 	printf("///           = = = = = = = = = = = = = = = = = = = = = = = =             ///\n");
-	printf("///           = = = = =         Menu Consumo				= = = = =             ///\n");
+	printf("///           = = = = =         Menu Consumo		= = = = =             ///\n");
 	printf("///           = = = = = = = = = = = = = = = = = = = = = = = =             ///\n");
 	printf("///                                                                       ///\n");
 	printf("///           1. Produtos usados                                          ///\n");
