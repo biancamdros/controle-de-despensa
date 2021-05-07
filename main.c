@@ -126,14 +126,18 @@ void telaSobre(void){
 void fimProg(void){
 	limpaTela();
 	printf("*****************************************************************************\n");
-	printf("**                                                                         **\n");	printf("**           ***************************************************           **\n");
+	printf("**                                                                         **\n");	
 	printf("**           ---------------------------------------------------           **\n");
 	printf("**           |                Fim do programa                  |           **\n");
 	printf("**           ---------------------------------------------------           **\n");
 	printf("**           ***************************************************           **\n");
 	printf("**                                                                         **\n");
+	printf("**			  Agradeço por usar meu programa! Dúvidas, sugestões           **\n");
+    printf("**			 ou dicas para melhorias, podem me contatar.                   **\n");
+	printf("** 																		   **\n");
 	printf("**                 Developed by  @biancamdros - Feb, 2021                  **\n");
 	printf("**                                                                         **\n");
-	printf("*****************************************************************************\n");	getchar();
+	printf("*****************************************************************************\n");	
+	getchar();
 }
 
