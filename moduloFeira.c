@@ -68,20 +68,20 @@ char menuFeira(void) {
 	printf("**                 Developed by  @biancamdros - Feb, 2021                  **\n");
 	printf("**                                                                         **\n");
 	printf("*****************************************************************************\n");
-	printf("///                                                                       ///\n");
-	printf("///           = = = = = = = = = = = = = = = = = = = = = = = =             ///\n");
-	printf("///           = = = = =        	Menu Feira          = = = = =             ///\n");
-	printf("///           = = = = = = = = = = = = = = = = = = = = = = = =             ///\n");
-	printf("///                                                                       ///\n");
-	printf("///           1. Cadastrar produto                                        ///\n");
-	printf("///           0. Sair                                                     ///\n");
-	printf("///                                                                       ///\n");
-	printf("///           Escolha a opção desejada: ");
+	printf("**                                                                         **\n");
+	printf("**           ---------------------------------------------------           **\n");
+	printf("**          |                    Menu Feira                    |           **\n");
+	printf("**           ---------------------------------------------------           **\n");
+	printf("**                                                                         **\n");
+	printf("**            1. Cadastrar produto                                         **\n");
+	printf("**            0. Sair                                                      **\n");
+	printf("**                                                                         **\n");
+	printf("**            Escolha a opção desejada: ");
 	scanf("%c", &op);
 	getchar();
-	printf("///                                                                       ///\n");
-	printf("///                                                                       ///\n");
-	printf("/////////////////////////////////////////////////////////////////////////////\n");
+	printf("**                                                                         **\n");
+	printf("**                                                                         **\n");
+	printf("*****************************************************************************\n");
 	printf("\n"); 
 	printf("\t\t\t>>> Tecle <ENTER> para continuar...\n");
 	getchar();
@@ -106,51 +106,51 @@ Feira* TelacadasProd(void){
 	printf("**                 Developed by  @biancamdros - Feb, 2021                  **\n");
 	printf("**                                                                         **\n");
 	printf("*****************************************************************************\n");
-	printf("///                                                                       ///\n");
-	printf("///           = = = = = = = = = = = = = = = = = = = = = = = =             ///\n");
-	printf("///           = = = = =      Cadastrar Item         = = = = =             ///\n");
-	printf("///           = = = = = = = = = = = = = = = = = = = = = = = =             ///\n");
-	printf("///                                                                       ///\n");
-	printf("///             Nome do Produto: ");
+	printf("**                                                                         **\n");
+	printf("**           ---------------------------------------------------           **\n");
+	printf("**          |                 Cadastrar Item                   |           **\n");
+	printf("**           ---------------------------------------------------           **\n");
+	printf("**                                                                         **\n");
+	printf("**              Nome do Produto: ");
 	scanf("%20[^\n]", prod->prod);
 	getchar();
 
 	while (!validaNome(prod->prod)){
-		printf("///             Nome do produto: Invalido                                  ///\n");	
-		printf("///             Nome do produto: ");
+		printf("**              Nome do produto: Invalido                               **\n");	
+		printf("**              Nome do produto: ");
 		scanf("%20[^\n]", prod->prod);
 		getchar();
 	}
-	printf("///             Data de Validade: \n");
-	printf("///             Dia: ");
+	printf("**              Data de Validade: \n");
+	printf("**              Dia: ");
 	scanf("%d", &prod->dia);
 	getchar();
-	printf("///             Mês: ");
+	printf("**              Mês: ");
 	scanf("%d", &prod->mes);
 	getchar();
-	printf("///             Ano: ");
+	printf("**              Ano: ");
 	scanf("%d", &prod->ano);
 	getchar();
 	dataValida = validacao (prod->dia,prod->mes,prod->ano);
 	
 	while(!dataValida){
 		
-		printf("///             Data de Validade: invalido                                ///\n");	
-		printf("///             Dia: ");
+		printf("**              Data de Validade: invalido                                **\n");	
+		printf("**              Dia: ");
 		scanf("%d",  &prod->dia);
 		getchar();
-		printf("///             Mês: ");
+		printf("**              Mês: ");
 		scanf("%d",&prod->mes);
 		getchar();
-		printf("///             Ano: ");
+		printf("**              Ano: ");
 		scanf("%d", &prod->ano);
 		getchar();
 		prod->dia = (int)prod->dia ;prod->mes=(int)prod->mes; prod->ano = (int)prod->ano;
 		dataValida = validacao (prod->dia,prod->mes,prod->ano);
 	}
 	
-	printf("///                                                                       ///\n");
-	printf("/////////////////////////////////////////////////////////////////////////////\n");
+	printf("**                                                                         **\n");
+	printf("*****************************************************************************\n");
 	printf("\n");
 	printf("\t\t\t>>> Tecle <ENTER> para continuar...\n");
 	getchar();

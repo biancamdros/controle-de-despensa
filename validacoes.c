@@ -1,4 +1,4 @@
-/// adaptado de @flgorgoni,2021
+/// adaptado de @flgorgonio,2021
 int bissexto(int ano) {
   if ((ano % 4 == 0) && (ano % 100 != 0)) {
     return 1;
@@ -33,7 +33,6 @@ int validacao (int dia, int mes, int ano){
 }
 
 
-// Codigo baseado e modificado a partir do codigo do Prof.Flavius.
 #include <string.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -59,7 +58,7 @@ int validaNome(char nome[]){
 	}
 	return 1;
 }
-///Feita por mim mesmo
+
 float ValidaQuant(float quant){
 	if (quant < 0){
 		return 0;
@@ -71,15 +70,15 @@ float ValidaQuant(float quant){
 	return 1;
 }
 
-///Funções de validaçaõ feita por mim mesmo
+
 #include <stdio.h>
 float validaPreco(float pre[]){
 	float preco[1];
 
 	for(int i = 0; i<1;i++){
 		if(pre[i] < 0 || pre[i] == 0){
-		printf("///             Invalido                                                  ///\n");
-		printf("///             Tente novamente!                                          ///\n");
+		printf("**              Invalido                                                   **\n");
+		printf("**              Tente novamente!                                           **\n");
 			return 0;
 		}else{
 			for(int i = 0;i < 1;i++){
